@@ -1,0 +1,204 @@
+[
+  {
+    "id": "tiris",
+    "title": "Tiris",
+    "category": "Trading tools",
+    "description": "A platform for testing and running crypto trading strategies.",
+    "highlights": [
+      "Backtest strategies against historical market data.",
+      "Run automated strategies and review positions and performance in the web portal."
+    ],
+    "techniques": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "Strategy backtesting"
+    ],
+    "link": {
+      "url": "https://github.com/alexliao/tiris-portal",
+      "label": "View the portal source"
+    },
+    "logo": "/projects/tiris/logo.webp",
+    "screenshots": []
+  },
+  {
+    "id": "upglow",
+    "title": "Upglow",
+    "category": "Personal analytics",
+    "description": "An AI daily log that turns everyday notes into searchable records and trends.",
+    "highlights": [
+      "I built Upglow after more than a decade of logging my days in spreadsheets.",
+      "The app extracts tags and measurements from free-form entries so users can find past notes and see patterns."
+    ],
+    "techniques": [
+      "React",
+      "TypeScript",
+      "FastAPI",
+      "PostgreSQL",
+      "AI extraction"
+    ],
+    "link": {
+      "url": "https://upglow.today/",
+      "label": "Visit Upglow"
+    },
+    "logo": "/projects/upglow/logo.webp",
+    "screenshots": [
+      {
+        "src": "/projects/upglow/landing.webp",
+        "alt": "Upglow’s English landing page",
+        "caption": "Product introduction"
+      },
+      {
+        "src": "/projects/upglow/automatic-tags.webp",
+        "alt": "A daily log entry with automatically suggested hashtags",
+        "caption": "Automatic hashtags"
+      }
+    ]
+  },
+  {
+    "id": "easygrin-pool",
+    "title": "Easygrin Pool",
+    "category": "Mining infrastructure",
+    "description": "A Grin mining pool with public hashrate and reward data.",
+    "highlights": [
+      "Miners can connect their rigs and monitor current and historical hashrate.",
+      "Public data shows how mining rewards are distributed."
+    ],
+    "techniques": [
+      "Ruby on Rails",
+      "Grin",
+      "Stratum"
+    ],
+    "link": {
+      "url": "https://pool.easygrin.org/",
+      "label": "Visit Easygrin Pool"
+    },
+    "logo": "/projects/easygrin-pool/logo.webp",
+    "screenshots": [
+      {
+        "src": "/projects/easygrin-pool/home.webp",
+        "alt": "Easygrin Pool homepage with network and pool hashrate metrics",
+        "caption": "Pool homepage"
+      }
+    ]
+  },
+  {
+    "id": "easygrin-wallet",
+    "title": "Easygrin Wallet",
+    "category": "Web wallet",
+    "description": "An always-online Grin wallet for receiving mining payouts.",
+    "highlights": [
+      "I made this wallet so Grin miners could receive payouts while their local wallet was offline.",
+      "Users can forward payouts to another wallet or an exchange."
+    ],
+    "techniques": [
+      "Ruby on Rails",
+      "Grin",
+      "Tor"
+    ],
+    "link": {
+      "url": "https://wallet.easygrin.org/",
+      "label": "Visit Easygrin Wallet"
+    },
+    "logo": "/projects/easygrin-wallet/logo.webp",
+    "screenshots": [
+      {
+        "src": "/projects/easygrin-wallet/home.webp",
+        "alt": "Easygrin Wallet homepage introducing the web wallet for miners",
+        "caption": "Wallet homepage"
+      }
+    ]
+  },
+  {
+    "id": "zytxl",
+    "title": "Zytxl",
+    "category": "Community directory",
+    "description": "A contact directory that helps military veterans reconnect with former unit members.",
+    "highlights": [
+      "Members can create a shared directory, invite former comrades, and search by details such as city or industry.",
+      "Administrators can review requests to join and add custom fields for their group."
+    ],
+    "techniques": [
+      "React",
+      "TypeScript",
+      "Capacitor",
+      "FastAPI",
+      "PostgreSQL"
+    ],
+    "link": null,
+    "logo": "/projects/zytxl/logo.webp",
+    "screenshots": [
+      {
+        "src": "/projects/zytxl/categories.webp",
+        "alt": "Zytxl directory with contacts grouped by city",
+        "caption": "Browse by city"
+      }
+    ]
+  },
+  {
+    "id": "reindeer",
+    "title": "Reindeer",
+    "category": "Networking",
+    "description": "An Android VPN client with one-tap connection and a choice of regions.",
+    "highlights": [
+      "One app brings connection controls, server selection, and account management together.",
+      "A shared Android codebase supports Reindeer, Ladder, and Xdeer."
+    ],
+    "techniques": [
+      "Android",
+      "Shadowsocks",
+      "Ruby on Rails"
+    ],
+    "link": null,
+    "logo": "/projects/reindeer/logo.webp",
+    "screenshots": [
+      {
+        "src": "/projects/reindeer/connected.webp",
+        "alt": "Reindeer Android app showing an active VPN connection",
+        "caption": "Connected"
+      },
+      {
+        "src": "/projects/reindeer/routes.webp",
+        "alt": "Reindeer Android app listing VPN locations",
+        "caption": "Server locations"
+      }
+    ]
+  },
+  {
+    "id": "wangcard",
+    "title": "Wangcard",
+    "category": "Language learning",
+    "description": "A WeChat Mini Program for learning Chinese characters with cards.",
+    "highlights": [
+      "Learners browse Chinese character cards organized into books.",
+      "A cross-platform client delivers the learning experience through a WeChat Mini Program."
+    ],
+    "techniques": [
+      "Vue",
+      "UniApp",
+      "WeChat Mini Programs",
+      "Ruby on Rails"
+    ],
+    "link": null,
+    "logo": "/projects/wangcard/logo.webp",
+    "screenshots": []
+  },
+  {
+    "id": "tetragram",
+    "title": "Tetragram",
+    "category": "Augmented reality",
+    "description": "A mobile AR app for placing photos in the physical world.",
+    "highlights": [
+      "Users can leave a virtual photo at a physical location.",
+      "A mobile AR view lets people see photos in the places where they were left."
+    ],
+    "techniques": [
+      "Mobile AR",
+      "Location-based media"
+    ],
+    "link": null,
+    "logo": "/projects/tetragram/logo.svg",
+    "screenshots": []
+  }
+]
